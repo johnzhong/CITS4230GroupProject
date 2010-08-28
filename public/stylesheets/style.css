@@ -72,7 +72,11 @@ p { padding-bottom: 18px; }
 #slider-holder ul { width: 874px; height: 327px; position: relative; overflow: hidden; }
 #slider-holder ul li { list-style-type: none; float: left; display: inline; height: 267px; width: 712px; padding: 56px 108px 4px 54px; position: relative; overflow: hidden; }
 
-#main { float:left; border-bottom: solid 1px #e3e7e9; margin-bottom: 6px; }
+#main {
+	float: none;
+	border-bottom: solid 1px #e3e7e9;
+	margin-bottom: 6px;
+}
 
 h2.txt-we-love-mondays { height: 94px; background-image: url(../images/txt-we-love-mondays.gif); }
 h3.txt-monday-again { background-image: url(../images/txt-monday-again.gif); }
@@ -152,3 +156,180 @@ form { font:1.0em "Lucida Grande",Lucida,Verdana,sans-serif; padding-left:15px; 
 /*---------------------------One-Third Container End-------------------------------*/
 
 /*---------------------------Support Page End------------------------------------*/
+
+
+/*---------------------------Login Page start------------------------------------*/
+.three-cols .col2 {
+	width: 800px;
+	margin-right: auto;
+}
+
+/*---------------------Log in Block--------------------------*/
+#logBlock{
+	width: 850px;
+	margin: 0 auto;
+}
+
+#topBlock{
+width:845px;
+margin:0 auto;
+background-color:#EBE588;
+color:inherit;
+padding-left:25px;
+height:100%;
+overflow:auto;
+
+}
+
+#BotBlock{
+width:870px;
+margin:0 auto;
+background:url('../images/bottom_roundBg.gif') no-repeat 0 bottom;
+height:24px;
+float:left;
+}
+
+.spacer{
+padding:0;
+margin:0;
+font-size:0;
+line-height:0;
+clear:both;
+}
+/*---------------------Log in Form--------------------------*/
+
+form.one{
+width:400px;
+float:left;
+padding:0 0 0 14px;
+}
+
+form.one label{
+font-size:12px;
+line-height:16px;
+color:#A9B100;
+background-color:inherit;
+font-weight:bold;
+float:left;
+padding:5px 113px 10px 0;
+
+}
+form.one input.txtfield{
+width:140px;
+height:40px;
+font-size:40px;
+color:#A9B100;
+background-color:#EBE588;
+float:left;
+border:solid 1px #EBE589;
+margin:0 9px 0 0;
+
+}
+form.one input.logButt{
+background:url('../images/login.gif') no-repeat 0 0;
+width:71px;
+height:50px;
+cursor:pointer;
+border:none;
+padding:53px 0 0 71px;
+float:left;
+}
+
+/*---------------------Log in Register--------------------------*/
+
+p.register{
+font-size:16px;
+line-height:18px;
+float:left;
+padding:18px 0 0 110px;
+width:410px;
+}
+
+
+p.register{
+font-size:16px;
+line-height:18px;
+float:left;
+padding:18px 0 0 110px;
+width:400px;
+}
+p.register span{
+display:block;
+font-size:24px;
+line-height:24px;
+
+padding-top:13px;
+}
+p.register span a{
+color:#AB2C05;
+background-color:inherit;
+}
+
+p.register span a:hover{
+text-decoration:underline;
+}
+
+/*---------------------Log in Right Pannel--------------------------*/
+
+#fashionBlock{
+width:307px;
+float:left;
+}
+.fashion{
+background:url('../images/fashionspot_bg.jpg') no-repeat 0 0;
+width:307px;
+height:105px;
+margin:3px 0 0 0;
+}
+h2.fashionPot{
+font:normal 24px/24px Georgia, "Times New Roman", Times, serif;
+color:#141C10;
+background-color:inherit;
+padding:16px 0 0 132px;
+}
+p.fashiontxt{
+color:#A6A04D;
+background-color:inherit;
+line-height:11px;
+padding:3px 0 0 132px;
+width:126px;
+}
+p.fashiontxt span{
+color:#AB2C05;
+background-color:inherit;
+}
+.teenwindow{
+background:url('../images/teen_window.jpg') no-repeat 0 0;
+width:307px;
+height:106px;
+}
+
+/*---------------------Log in Pannel--------------------------*/
+#userLog{
+width:515px;
+height:193px;
+border:solid 6px #C3BD66;
+background:url('../images/flower.gif') no-repeat 0 bottom #DED879;
+padding:10px 0 0 10px;
+color:#3A3E24;
+float:left;
+}
+#userLog p.user{
+background:url('../images/e16_img.gif') no-repeat 0 0;
+width:94px;
+height:82px;
+float:left;
+}
+
+
+
+/*---------------------------Login Page End------------------------------------*/
+
+/*---------------------------Site Map Page Start------------------------------------*/
+#footer #smbuton {
+	color: #FF0000;
+	text-decoration: blink;
+}
+
+/*---------------------------Site Map Page End------------------------------------*/
+
