@@ -86,14 +86,14 @@ h3.txt-247 { background-image: url(../images/txt-247.gif); }
 .cols .col { float: left; display: inline; }
 .cols .col-last { margin-right: 0 !important; }
 .cols .col h3.notext { height: 45px; margin-bottom: 5px; }
-.cols .sitemap
 
 .three-cols .col { width: 264px; margin-right: 41px; }
 .two-cols .col { width: 420px; margin-right: 34px; }
-.two-cols { float:left; border-top:1px solid #E3E7E9; }
+
+/*.two-cols { float:left; border-top:1px solid #E3E7E9; }
 .two-thirds-cols { float:left; width: 550px; padding-right: 0px; margin-right: 32px; }
 .two-thirds-cols .col { width:100%; }
-.one-third-cols { float:left; width: 291px; padding-right: 0px; margin-right: 0px; } }
+.one-third-cols { float:left; width: 291px; padding-right: 0px; margin-right: 0px; } }*/
 
 #footer { height: 41px; background: url(../images/footer.gif) no-repeat 0 0; line-height: 41px; padding: 10px 10px 10px 22px; color: #fff; }
 #footer p { padding-bottom: 0; }
